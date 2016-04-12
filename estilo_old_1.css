@@ -37,23 +37,6 @@ caption {
   transition:opacity 1s;
   -webkit-transition:opacity 1s;
 }
-.CajaEnunciadoDerecha {
-  float :right;
-  max-width: 30%;
-  border: dashed;
-
-background: royalblue;
-top: 0px;
-width: 400px;
-margin: 0;
-padding: 10px;
-/* margin-top: 8px; */
-margin-bottom: 2%;
-transition: opacity 1s;
--webkit-transition: opacity 1s;
-border-radius: 15px;
--webkit-border-radius: 15px;
-}
 .CajaEnunciado {
   max-width: 30%;
   border: dashed;
