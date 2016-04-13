@@ -4,7 +4,10 @@
 		<meta charset="utf-8">
 		<title>Curso Ingreso UTN FRA</title>
 
-		<!--Estilos-->
+		<!--Estilos-->		
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+ 		<link rel="icon" href="http://www.octavio.com.ar/favicon.ico">
+
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/ingreso.css">
 		<link rel="stylesheet" type="text/css" href="estilo.css">
@@ -12,7 +15,7 @@
 		<!--final de Estilos-->
 
 		<!--Lógica-Programación-->
-
+		<script type="text/javascript" src="js/funcionesLogin.js"></script>
         <!--Final de Lógica-Programación -->
 
 
@@ -33,7 +36,7 @@
                <input type="password" id="clave" minlength="6" class="form-control" placeholder="Clave" required="">
 	           <div class="checkbox">
 	             <label>
-	               <input type="checkbox" id="recordarme" checked> Recordame
+	               <input type="checkbox" id="recordarme" checked> <p style="color:black;">Recordame</p>
 	             </label>
 	           </div>
 	           <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
@@ -50,7 +53,7 @@
   else
    { 
       echo"<h3>usted '".$_SESSION['registrado']."' esta logeado. </h3>";
-      header("Location: index_empleados.php");
+      header("Location: index_ejercicios.php");
    } 
 ?>
 </html>
