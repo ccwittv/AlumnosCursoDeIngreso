@@ -10,15 +10,29 @@
 		<!--final de Estilos-->
 
 		<!--Lógica-Programación-->
-		<script type="text/javascript" src="jsEntradaSalida-1.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<link rel="icon" href="http://www.octavio.com.ar/favicon.ico">
+ 		<script type="text/javascript" src="../js/funcionesLogin.js"></script>
         <!--Final de Lógica-Programación -->
 		
 
 	</head>
+<?php 
+  require_once '../clases/controlDeSesion.php';
+  session_start();  
+  ControlDeSesion::estaSeteado('registrado', '../index.php');
+?> 	
 	<body>
+		
 		<div class="CajaArriva animated bounceInUp">
-			<a  class="MiBotonUTNLinea" onclick="location.href='../index.html'" >Men&uacute; Principal</a>	
+			<a  class="MiBotonUTNLinea" onclick="location.href='../index_ejercicios.php'" >Men&uacute; Principal</a>	
 		</div>
+		<br>
+		<br>
+		<div class="CajaArriva animated bounceInUp">
+				<a  class="MiBotonUTNLinea" onclick="deslogear('../php/deslogearUsuario.php','../index.php');return false;" >Salir</a>	
+		</div>
+
 		<div class="CajaInicio animated bounceInRight">
 			<h1>Trabajos Pr&aacute;cticos: </br> Curso de ingreso</h1>
 			<form id="FormIngreso" style="min-height: 380px;">
@@ -31,7 +45,7 @@
 				<a  class="MiBotonUTNMenu" title="Adivina el n&uacute;mero v1.0" onclick="location.href='AdivinaElNumero1.html'" >Ejercicio 5</a>
 				<a  class="MiBotonUTNMenu" title="Adivina el n&uacute;mero v2.0" onclick="location.href='AdivinaElNumero2.html'" >Ejercicio 6</a>
 				<a  class="MiBotonUTNMenu" title="Piedra, papel o tijera v1.0"  onclick="location.href='PiedarPapelTijera1.html'" >Ejercicio 7</a>
-				<a  class="MiBotonUTNMenu" title="Piedra, papel o tijera v2.0" onclick="location.href='PiedarPapelTijera2.html'" >Ejercicio 8</a>
+				<a  class="MiBotonUTNMenu" title="Piedra, papel o tijera v2.0" onclick="location.href='PiedarPapelTijera2.php'" >Ejercicio 8</a>
 				<a  class="MiBotonUTNMenu" title="Agilidad aritm&eacute;tica v1.0"onclick="location.href='AgilidadAritmetica1.html'" >Ejercicio 9</a>
 				<a  class="MiBotonUTNMenu" title="Agilidad aritm&eacute;tica v2.0"onclick="location.href='AgilidadAritmetica2.html'" >Ejercicio 10</a>
 				<a  class="MiBotonUTNMenu" title="Reflejos dalt&oacute;nicos v1.0"onclick="location.href='ReflejosDaltonicos1.html'" >Ejercicio 11</a>

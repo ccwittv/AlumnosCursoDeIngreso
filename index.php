@@ -5,9 +5,6 @@
 		<title>Curso Ingreso UTN FRA</title>
 
 		<!--Estilos-->		
-		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
- 		<link rel="icon" href="http://www.octavio.com.ar/favicon.ico">
-
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/ingreso.css">
 		<link rel="stylesheet" type="text/css" href="estilo.css">
@@ -15,6 +12,8 @@
 		<!--final de Estilos-->
 
 		<!--Lógica-Programación-->
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+ 		<link rel="icon" href="http://www.octavio.com.ar/favicon.ico">
 		<script type="text/javascript" src="js/funcionesLogin.js"></script>
         <!--Final de Lógica-Programación -->
 

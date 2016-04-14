@@ -45,11 +45,11 @@ function validarLogin()
 	
 }
 
-function deslogear()
+function deslogear(direccionURL,locationHREF)
 {	
 	var funcionAjax=$.ajax(
 								{
-									url:"php/deslogearUsuario.php",
+									url:direccionURL,
 									type:"post"		
 								}
 						  );
@@ -58,7 +58,7 @@ function deslogear()
 						{
 								//MostarBotones();
 								//MostrarLogin("MostrarLogin");
-								location.href = 'index.php';
+								location.href = locationHREF;
 						}
 					);	
 	
