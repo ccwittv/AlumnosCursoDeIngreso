@@ -14,7 +14,8 @@
 			<link rel="icon" href="http://www.octavio.com.ar/favicon.ico">
 			<script type="text/javascript" src="../js/funcionesLogin.js"></script>
 			<!--AngularJS-->
-			<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+			<!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>-->
+			<script src="../bower_components/angular/angular.min.js"></script>
 			<!--<script type="text/javascript" src="jsPiedarPapelTijera2.js"></script>-->
 			<script type="text/javascript" src="app.js"></script>
 			<script type="text/javascript" src="controllerppt2.js"></script>
